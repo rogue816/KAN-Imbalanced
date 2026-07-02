@@ -1,0 +1,59 @@
+{
+  "ecoli3": {
+    "metadata": {
+      "imbalance_ratio": 8.6,
+      "input_dim": 7,
+      "parity_ratio": 0.9931623931623932
+    },
+    "kan": {
+      "lr": 0.0004498688788370636,
+      "batch_size": 16,
+      "k": 2,
+      "n_layers": 1,
+      "layer_widths": [
+        10
+      ],
+      "best_gmean": 0.9222535916849246,
+      "best_params_count": 1170
+    },
+    "mlp": {
+      "lr": 0.004254755024615206,
+      "batch_size": 16,
+      "n_layers": 1,
+      "hidden_dims": [
+        116
+      ],
+      "best_gmean": 0.9188783637444116,
+      "best_model_params": 1162
+    }
+  },
+  "yeast5": {
+    "metadata": {
+      "imbalance_ratio": 32.72727272727273,
+      "input_dim": 8,
+      "parity_ratio": 0.969047619047619
+    },
+    "kan": {
+      "lr": 0.0003130218925532894,
+      "batch_size": 32,
+      "k": 3,
+      "n_layers": 1,
+      "layer_widths": [
+        3
+      ],
+      "best_gmean": 0.9829065301304272,
+      "best_params_count": 420
+    },
+    "mlp": {
+      "lr": 0.00015512001107978733,
+      "batch_size": 16,
+      "n_layers": 2,
+      "hidden_dims": [
+        15,
+        15
+      ],
+      "best_gmean": 0.9829106256411885,
+      "best_model_params": 407
+    }
+  }
+}
